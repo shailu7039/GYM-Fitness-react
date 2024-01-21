@@ -1,0 +1,244 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(29, 31, 20);
+  color: rgb(199, 199, 199);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.bg-nav {
+  background-color: rgb(29, 31, 20);
+}
+.left-45per {
+  left: 45%;
+}
+.rightsection {
+  background-color: #2d2e2b;
+  padding: 25px 30px 30px;
+}
+.text-primary {
+  color: #cdde6b;
+}
+.bg-primary {
+  background: #cdde6b;
+}
+.h-40px {
+  height: 40px;
+}
+.bg-f36 {
+  background: #f36;
+}
+.cudtborder {
+  border: 1px solid grey;
+  padding: 10px;
+  border-radius: 7px;
+}
+.moreborde {
+  border: 1px solid grey;
+}
+.z-index999 {
+  z-index: 9999;
+}
+.w-750px {
+  width: 750px;
+}
+.filterbright {
+  filter: brightness(0.6);
+ 
+ 
+}
+.custmenuhoveractive:hover{
+color: #cdde6b;
+text-decoration: underline;
+}
+.custmenuhoveractive:active {
+  color: #cdde6b;
+}
+.custhieghtswiper .swiper-wrapper {
+  height: 830px;
+}
+.custhimgbanner {
+  height: 830px;
+}
+.h-340px {
+  height: 340px;
+}
+.top-800px {
+  top: 800px;
+}
+.h-700px {
+  height: 700px;
+}
+.bg-0c1600 {
+  background: #0c1600;
+}
+
+.custswiper.swiper{
+  padding-top: 80px;
+}
+.custswiper .swiper-button-next{
+  top: 22px !important;
+  right: 0px !important;
+}
+.custswiper .swiper-button-prev {
+  top: 22px !important;
+  left: 93% !important;
+}
+.custboxshadow{
+  box-shadow: 40px -40px 0 #cdde6b !important;
+}
+.lineheight{
+  line-height: 3rem !important;
+}
+/* prallax effect */
+/* Styling the first parallax's 
+            height, width and background color */
+.parallax-1 {
+  width: 100%;
+  height: 380px;
+  background: url("./assets/images/mr-lee.jpg");
+  background-size: 100% 130%;
+  background-attachment: fixed;
+  object-fit: cover;
+  opacity: 0.3;
+}
+
+/* Styling the title of first parallax */
+.parallax-1 div {
+  margin: auto;
+  position: relative;
+  left: 500x;
+  top: 0px;
+  text-align: center;
+}
+
+/* Styling the second parallax's 
+            height, width and background color */
+.parallax-2 {
+  width: 100%;
+  height: 800px;
+  background: url("./assets/images/sven-mieke.jpg");
+  background-size: 100% 140%;
+  background-attachment: fixed;
+  filter: brightness(0.5);
+  opacity: 0.2;
+}
+
+/* Styling the title of second parallax */
+.parallax-2 h2 {
+  margin: auto;
+  position: relative;
+  left: 500x;
+  top: 300px;
+  width: 250px;
+  height: 37px;
+  padding: 10px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-size: 30px;
+  font-family: Verdana;
+}
+.parallax-3 {
+  width: 100%;
+  height: 1050px;
+  background: url("./assets/images/sven-mieke.jpg");
+  background-size: 100% 140%;
+  background-attachment: fixed;
+  filter: brightness(0.5);
+  opacity: 0.2;
+}
+.parallax-3 h2 {
+  margin: auto;
+  position: relative;
+  left: 500x;
+  top: 300px;
+  width: 250px;
+  height: 37px;
+  padding: 10px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-size: 30px;
+  font-family: Verdana;
+}
+/* Styling the content or paragraph */
+.para-1 {
+  padding: 50px;
+  background-color: black;
+  color: white;
+  font-size: 17px;
+}
+
+/* Styling the content or paragraph */
+.para-2 {
+  text-align: center;
+  padding: 25px;
+  font-size: 17px;
+  font-family: Verdana;
+  background-color: black;
+  color: white;
+}
+/* parraxal effeect */
+
+.card1 {
+  background-color: #2e2e2c;
+  padding: 30px 30px;
+}
+.card2 {
+  background-color: #cdde6b;
+  padding: 30px 30px;
+}
+.bg-2d2e2 {
+  background: #2d2e2b;
+}
+.h-300px {
+  height: 300px;
+}
+.w-600px{
+  width: 600px;
+}
+.h-60px{
+  height: 60px;
+}
+.custhover:hover {
+}
+/* on hover show texxt */
+.followimage {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.custhoverimage:hover .followimage {
+  opacity: 0.3;
+}
+
+.custhoverimage:hover .middle {
+  opacity: 1;
+}
+.custopacity{
+  opacity: 0.3;
+}
+
